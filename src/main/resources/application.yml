@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: aws-backend-test
+  datasource:
+    url: jdbc:mysql://minseok-db.chysoy8maveq.ap-northeast-2.rds.amazonaws.com:3306/test
+    username: admin
+    password: pms19320
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
